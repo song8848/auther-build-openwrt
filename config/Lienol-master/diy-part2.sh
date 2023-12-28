@@ -30,6 +30,7 @@ echo "DISTRIB_SOURCECODE='Lienol'" >>package/base-files/files/etc/openwrt_releas
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
 
 # Add third-party software packages (The entire repository)
+git clone https://github.com/song8848/school-op.git package/school
 # git clone https://github.com/libremesh/lime-packages.git package/lime-packages
 # Add third-party software packages (Specify the package)
 # svn co https://github.com/libremesh/lime-packages/trunk/packages/{shared-state-pirania,pirania-app,pirania} package/lime-packages/packages
